@@ -38,6 +38,7 @@
 @media screen and (max-width:940px) {
   .hamburger {
       display: block;
+
   }
 
   .navbar .nav-menu {
@@ -46,7 +47,8 @@
       flex-direction: column;
       align-items: center;
       top: 90px;
-      right: -100%;
+      /* right: -100%; */
+      display: none;
       height: 100%;
       width: 100%;
       background: rgba(255,255,255, .98);
@@ -55,15 +57,26 @@
   }
 
   .navbar .active {
-      right: 0;
+      /* right: 0; */
+      display:block;
+      max-width: 400px;
+      justify-content: center;
   }
 
   .navbar .nav-menu li a {
       font-size: 2rem;
   }
+
+  
+  
+  
+
+  .navbar h1{
+    font-size:larger;
+  }
+
+
+
 }
-
-
-
 
 

@@ -9,8 +9,8 @@ import ResponsiveAppBar from "./components/Navbar1";
 function App() {
   return (
     <>
-  {/* <Navbar/> */}
-  <ResponsiveAppBar/>
+  <Navbar/>
+  {/* <ResponsiveAppBar/> */}
   <Hero/>
   <Best/>
   <Footer/>
