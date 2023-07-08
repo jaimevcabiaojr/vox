@@ -9,7 +9,7 @@
 
 .hero::before{
   content: '';
-  background: url('../assects/vox.jpg') no-repeat center
+  background: url('../assects/altar.jpg') no-repeat center
    center/cover;
    height: 100%;
    width: 100%;
