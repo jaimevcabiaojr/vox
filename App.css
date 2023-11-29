@@ -1,0 +1,13 @@
+.App{
+  background-image: url(./src/assects/backgound\ image\ 1.png)no-repeat center
+  center/cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-attachment: fixed;
+}

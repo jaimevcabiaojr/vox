@@ -5,12 +5,14 @@ import Best from "./components/Best";
 import Footer from "./components/Footer";
 import ResponsiveAppBar from "./components/Navbar1";
 import Members from "./components/Members";
+import LoginForm from "./components/Login";
 
 
 function App() {
   return (
-    <>
+    <div className="App">
   <Navbar/>
+  {/* <LoginForm/> */}
   {/* <ResponsiveAppBar/> */}
   <Hero/>
   <Best/>
@@ -18,7 +20,7 @@ function App() {
   <Footer/>
   
 
-    </>
+    </div>
   );
 }
 
